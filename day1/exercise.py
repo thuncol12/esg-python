@@ -56,7 +56,13 @@ print(new_list)
 
 # 입력한 점수가 60 이상인지 미만인지에 따라 P/F 출력
 score = int(input("점수가 몇 점인가요? "))
-if score >= 60:
-    print('P')
-elif score < 60:
+if score >= 80 and score <= 100:
+    print('A')
+elif score >= 60 and score < 80:
+    print("B")
+elif score >= 40 and score < 60:
+    print("C")
+elif score >= 20 and score < 40:
+    print("D")
+else:
     print("F")
