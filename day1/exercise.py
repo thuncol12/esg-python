@@ -52,3 +52,11 @@ print(s1-s2)
 my_list = [1, 2, 3, 4, 4, 4, 9, 11, 11, 11, 14]
 new_list = list(set(my_list))
 print(new_list)
+
+
+# 입력한 점수가 60 이상인지 미만인지에 따라 P/F 출력
+score = int(input("점수가 몇 점인가요? "))
+if score >= 60:
+    print('P')
+elif score < 60:
+    print("F")
