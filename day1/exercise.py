@@ -20,3 +20,14 @@ print(str3.replace('-', ''))
 a = 'hello'
 b = 'python'
 print(a+"! "+b)
+
+# 리스트에서 특정항목삭제
+my_list = ['red', 'orange', 'yellow',
+           'green', 'blue', 'purple', 'black', 'white']
+my_list.remove('green')
+print(my_list)
+
+
+# 리스트에 특정 문자 추가
+my_list.insert(1, "pink")
+print(my_list)
