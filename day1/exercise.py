@@ -31,3 +31,13 @@ print(my_list)
 # 리스트에 특정 문자 추가
 my_list.insert(1, "pink")
 print(my_list)
+
+
+# 딕셔너리에서 a,b에 해당하는 값 출력
+a = {
+    "A": 90,
+    "B": 80,
+    "C": 70,
+    "D": 60
+}
+print(a["B"])
